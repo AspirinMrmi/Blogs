@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title></title>
+    <script src="https://npmcdn.com/react@15.3.1/dist/react.js"></script>
+    <script src="https://npmcdn.com/react-dom@15.3.1/dist/react-dom.js"></script>
+    <script src="https://npmcdn.com/babel-core@5.8.38/browser.min.js"></script>
+    <style type="text/css">
+        .hidden{
+            display:none;
+        }
+    </style>
+</head>
+<body>
+<div id="myComponent"></div>
+<script type="text/babel">
+
+    //菜单数据
+    var menuDatas = [
+        {id:"010",  label:"ANIMAL",     children:[
+                {id:"011",  label:"dog"},
+                {id:"012",  label:"cat"},
+                {id:"013",  label:"bird"}
+            ]},
+        {id:"020",  label:"TRAFFIC",    children:[
+                {id:"021",  label:"car"},
+                {id:"022",  label:"bus"},
+                {id:"023",  label:"plane"}
+            ]},
+        {id:"030",  label:"MOBILE",     children:[
+                {id:"031",  label:"ipone"},
+                {id:"032",  label:"smartisan"}
+            ]}
+    ];
+
+    //菜单React组件
+    var ReactMenus = React.createClass({
+        getInitialState : function(){
+            return {expandId : -1};
+        },
+        clickHandler : function(menuDataId){
+            this.setState({ expandId: menuDataId});
+        },
+        render :function(){
+            //保持当前组件对象，方便在循环内部使用
+            var crtCmp = this;
+
+            //遍历获取菜单数据，生成Virtual DOM对象
+            var menusDataDom = this.props.menuDatas.map(function(crtMenuData){
+
+                //遍历子菜单数据，生成Virtual DOM对象-->当前组件被点击，才展示子菜单数据
+                var liData = null;
+                if(crtMenuData.children){
+
+                    liData = crtMenuData.children.map(function(currentLiData){
+                        return (
+                            <li key={currentLiData.id} className={crtMenuData.id==crtCmp.state.expandId?"":"hidden"}>
+                                {currentLiData.label}
+                            </li>
+                        )
+                    });
+
+                    liData = <ul>{liData}</ul>
+                }
+
+
+                //将完整Virtual DOM返回
+                return (
+                    <div key={crtMenuData.id}>
+                        <div onClick={crtCmp.clickHandler.bind(crtCmp,crtMenuData.id)}>{crtMenuData.label}</div>
+                        {liData?liData:""}
+                    </div>
+                );
+
+            })
+
+            return (
+                <div>{menusDataDom}</div>
+            )
+        }
+    });
+
+    //渲染到DOM
+    ReactDOM.render(<ReactMenus menuDatas={menuDatas} /> , document.getElementById("myComponent"));
+</script>
+</body>
+</html>
