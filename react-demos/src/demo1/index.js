@@ -1,3 +1,8 @@
+/*
+* Theme: 可变状态学习demo笔记
+* Date：2018/09/18
+* Author: Aspirin
+* */
 import React, { Component } from 'react';
 
 export default class App extends Component{
