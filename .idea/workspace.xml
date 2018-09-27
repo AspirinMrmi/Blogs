@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34a1128e-08c9-4323-9729-7e26613bd9e7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/react-demos/src/demo2/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-demos/src/demo3/demo3_1/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-demos/src/demo3/demo3_2/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-demos/src/demo3/demo3_3/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-demos/src/demo3/demo3_4/eventProxy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-demos/src/demo3/demo3_4/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-demos/src/demo3/组件通讯学习笔记.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-demos/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-demos/src/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,38 +23,59 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/react-demos/src/App.js">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/react-demos/src/demo3/demo3_1/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="31">
-              <caret line="1" column="30" lean-forward="true" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+            <state relative-caret-position="-1045">
+              <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.test.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/react-demos/src/App.test.js">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/react-demos/src/demo3/demo3_2/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="169">
+              <caret line="24" column="61" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="61" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/react-demos/src/demo1/index.js">
+        <entry file="file://$PROJECT_DIR$/react-demos/src/demo3/demo3_3/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3999">
-              <caret line="129" column="40" lean-forward="true" selection-start-line="129" selection-start-column="40" selection-end-line="129" selection-end-column="40" />
+            <state relative-caret-position="93">
+              <caret line="73" column="5" lean-forward="true" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/react-demos/src/demo2/index.js">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/react-demos/src/demo3/demo3_4/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#86#127#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="组件通讯学习笔记.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/react-demos/src/demo3/组件通讯学习笔记.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -56,8 +83,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -74,9 +101,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/react-demos/src/index.js" />
-        <option value="$PROJECT_DIR$/react-demos/src/demo1/index.js" />
         <option value="$PROJECT_DIR$/demos/demo2/index.html" />
+        <option value="$PROJECT_DIR$/react-demos/src/demo1/index.js" />
+        <option value="$PROJECT_DIR$/react-demos/src/demo2/index.js" />
+        <option value="$PROJECT_DIR$/react-demos/src/demo3/index.js" />
+        <option value="$PROJECT_DIR$/react-demos/src/demo3/demo3_1/index.js" />
+        <option value="$PROJECT_DIR$/react-demos/src/demo3/demo3_2/index.js" />
+        <option value="$PROJECT_DIR$/react-demos/src/demo3/demo3_3/index.js" />
+        <option value="$PROJECT_DIR$/react-demos/src/index.js" />
+        <option value="$PROJECT_DIR$/react-demos/src/demo3/demo3_4/eventProxy.js" />
+        <option value="$PROJECT_DIR$/react-demos/src/demo3/demo3_4/index.js" />
+        <option value="$PROJECT_DIR$/react-demos/src/demo3/组件通讯学习笔记.md" />
       </list>
     </option>
   </component>
@@ -94,10 +129,9 @@
       <path value="$PROJECT_DIR$/react-demos/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
-    <option name="height" value="877" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -148,6 +182,45 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="demo2" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Blogs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blogs" type="462c0819:PsiDirectoryNode" />
+              <item name="react-demos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="demo3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blogs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blogs" type="462c0819:PsiDirectoryNode" />
+              <item name="react-demos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="demo3" type="462c0819:PsiDirectoryNode" />
+              <item name="demo3_1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blogs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blogs" type="462c0819:PsiDirectoryNode" />
+              <item name="react-demos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="demo3" type="462c0819:PsiDirectoryNode" />
+              <item name="demo3_2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blogs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blogs" type="462c0819:PsiDirectoryNode" />
+              <item name="react-demos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="demo3" type="462c0819:PsiDirectoryNode" />
+              <item name="demo3_3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blogs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blogs" type="462c0819:PsiDirectoryNode" />
+              <item name="react-demos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="demo3" type="462c0819:PsiDirectoryNode" />
+              <item name="demo3_4" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -161,6 +234,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/react-demos/src/demo3/demo3_1" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -185,7 +263,7 @@
       <option name="presentableId" value="Default" />
       <updated>1537252707189</updated>
       <workItem from="1537252708646" duration="7728000" />
-      <workItem from="1537863447678" duration="8400000" />
+      <workItem from="1537863447678" duration="20064000" />
     </task>
     <task id="LOCAL-00001" summary="使用create-react-app脚手架初始化一个用来写react练习demo的工程。">
       <created>1537325088228</created>
@@ -208,14 +286,28 @@
       <option name="project" value="LOCAL" />
       <updated>1538015282957</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="增加注释">
+      <created>1538015646799</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1538015646799</updated>
+    </task>
+    <task id="LOCAL-00005" summary="不可变属性学习">
+      <created>1538020258565</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1538020258565</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16128000" />
+    <option name="totallyTimeSpent" value="27792000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
@@ -249,7 +341,9 @@
     <MESSAGE value="使用create-react-app脚手架初始化一个用来写react练习demo的工程。" />
     <MESSAGE value="可变状态学习" />
     <MESSAGE value="demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="demo" />
+    <MESSAGE value="增加注释" />
+    <MESSAGE value="不可变属性学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="不可变属性学习" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/react-demos/src/App.js">
@@ -272,7 +366,6 @@
           <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#111#142#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -281,6 +374,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -308,28 +404,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react-demos/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="1" column="30" lean-forward="true" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
           <caret line="4183" column="7" lean-forward="true" selection-start-line="4183" selection-start-column="7" selection-end-line="4183" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-demos/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="7" column="58" lean-forward="true" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#111#142#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -350,6 +428,13 @@
     <entry file="file://$PROJECT_DIR$/react-demos/src/index.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/react-demos/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="53" column="60" lean-forward="true" selection-start-line="53" selection-start-column="60" selection-end-line="53" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/react-demos/src/App.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -361,13 +446,89 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/react-demos/src/demo1/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3999">
-          <caret line="129" column="40" lean-forward="true" selection-start-line="129" selection-start-column="40" selection-end-line="129" selection-end-column="40" />
+        <state relative-caret-position="-1247">
+          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/react-demos/src/demo2/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="3" column="17" lean-forward="true" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-demos/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="1" column="30" lean-forward="true" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-demos/src/demo3/demo3_1/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1045">
+          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-demos/src/demo3/demo3_2/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="24" column="61" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="61" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-demos/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="4" column="42" lean-forward="true" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-demos/src/demo3/demo3_4/eventProxy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="48" column="26" lean-forward="true" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-demos/src/demo3/demo3_3/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="73" column="5" lean-forward="true" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-demos/src/demo3/demo3_4/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#86#127#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-demos/src/demo3/组件通讯学习笔记.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
