@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34a1128e-08c9-4323-9729-7e26613bd9e7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/react-demos/src/demo3/demo3_1/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-demos/src/demo3/demo3_2/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-demos/src/demo3/demo3_3/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-demos/src/demo3/demo3_4/eventProxy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-demos/src/demo3/demo3_4/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-demos/src/demo3/组件通讯学习笔记.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-demos/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-demos/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-demos/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/react-demos/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-demos/src/demo3/组件通讯学习笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/react-demos/src/demo3/组件通讯学习笔记.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,6 +22,27 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-1045">
               <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/react-demos/src/demo1/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1771">
+              <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="组件通讯学习笔记.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/react-demos/src/demo3/组件通讯学习笔记.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="487">
+              <caret line="313" column="167" selection-start-line="313" selection-start-column="167" selection-end-line="313" selection-end-column="167" />
             </state>
           </provider>
         </entry>
@@ -69,11 +84,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="组件通讯学习笔记.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/react-demos/src/demo3/组件通讯学习笔记.md">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/react-demos/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+            <state relative-caret-position="279">
+              <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -111,6 +126,7 @@
         <option value="$PROJECT_DIR$/react-demos/src/index.js" />
         <option value="$PROJECT_DIR$/react-demos/src/demo3/demo3_4/eventProxy.js" />
         <option value="$PROJECT_DIR$/react-demos/src/demo3/demo3_4/index.js" />
+        <option value="$PROJECT_DIR$/react-demos/README.md" />
         <option value="$PROJECT_DIR$/react-demos/src/demo3/组件通讯学习笔记.md" />
       </list>
     </option>
@@ -195,30 +211,6 @@
               <item name="react-demos" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="demo3" type="462c0819:PsiDirectoryNode" />
-              <item name="demo3_1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Blogs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Blogs" type="462c0819:PsiDirectoryNode" />
-              <item name="react-demos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="demo3" type="462c0819:PsiDirectoryNode" />
-              <item name="demo3_2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Blogs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Blogs" type="462c0819:PsiDirectoryNode" />
-              <item name="react-demos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="demo3" type="462c0819:PsiDirectoryNode" />
-              <item name="demo3_3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Blogs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Blogs" type="462c0819:PsiDirectoryNode" />
-              <item name="react-demos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="demo3" type="462c0819:PsiDirectoryNode" />
               <item name="demo3_4" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -263,7 +255,7 @@
       <option name="presentableId" value="Default" />
       <updated>1537252707189</updated>
       <workItem from="1537252708646" duration="7728000" />
-      <workItem from="1537863447678" duration="20064000" />
+      <workItem from="1537863447678" duration="21575000" />
     </task>
     <task id="LOCAL-00001" summary="使用create-react-app脚手架初始化一个用来写react练习demo的工程。">
       <created>1537325088228</created>
@@ -300,11 +292,18 @@
       <option name="project" value="LOCAL" />
       <updated>1538020258565</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="组件通讯学习笔记">
+      <created>1538043432609</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1538043432609</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27792000" />
+    <option name="totallyTimeSpent" value="29303000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -343,7 +342,8 @@
     <MESSAGE value="demo" />
     <MESSAGE value="增加注释" />
     <MESSAGE value="不可变属性学习" />
-    <option name="LAST_COMMIT_MESSAGE" value="不可变属性学习" />
+    <MESSAGE value="组件通讯学习笔记" />
+    <option name="LAST_COMMIT_MESSAGE" value="组件通讯学习笔记" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/react-demos/src/App.js">
@@ -428,28 +428,11 @@
     <entry file="file://$PROJECT_DIR$/react-demos/src/index.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/react-demos/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="53" column="60" lean-forward="true" selection-start-line="53" selection-start-column="60" selection-end-line="53" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/react-demos/src/App.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
             <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-demos/src/demo1/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1247">
-          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -523,10 +506,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/react-demos/src/demo1/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1771">
+          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-demos/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/react-demos/src/demo3/组件通讯学习笔记.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+        <state relative-caret-position="487">
+          <caret line="313" column="167" selection-start-line="313" selection-start-column="167" selection-end-line="313" selection-end-column="167" />
         </state>
       </provider>
     </entry>
